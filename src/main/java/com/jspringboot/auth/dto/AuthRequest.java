@@ -1,4 +1,4 @@
-package com.jspringboot.auth;
+package com.jspringboot.auth.dto;
 
 import lombok.Data;
 

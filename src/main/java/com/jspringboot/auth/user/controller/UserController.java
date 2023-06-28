@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.jspringboot.auth.AuthRequest;
+import com.jspringboot.auth.dto.AuthRequest;
 import com.jspringboot.auth.security.token.service.JWTTokenService;
 import com.jspringboot.auth.user.entity.UserEntity;
 import com.jspringboot.auth.user.repository.UserRepository;
