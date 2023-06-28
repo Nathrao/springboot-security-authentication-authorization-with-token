@@ -1,4 +1,4 @@
-package com.jspringboot.auth;
+package com.jspringboot.auth.security.token.service;
 
 import java.security.Key;
 import java.util.Date;

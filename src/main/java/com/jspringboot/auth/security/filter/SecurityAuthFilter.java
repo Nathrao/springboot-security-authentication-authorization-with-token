@@ -1,4 +1,4 @@
-package com.jspringboot.auth;
+package com.jspringboot.auth.security.filter;
 
 import java.io.IOException;
 
@@ -11,9 +11,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 import com.jspringboot.auth.config.UserService;
+import com.jspringboot.auth.security.token.service.JWTTokenService;
 
 import io.jsonwebtoken.ExpiredJwtException;
-import io.jsonwebtoken.JwtException;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
